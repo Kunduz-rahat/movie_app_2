@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import './index.scss';
 import logo from '../../assets/tmovie.jpg';
-import { cleanup } from "@testing-library/react";
+
 
 const headerNav = [
 	{
@@ -42,7 +42,7 @@ const Header = () => {
 			<div className="header__wrap container">
 				<div className="logo">
 					<img src={logo} alt='' />
-					<Link to='/'>tMovies</Link>
+					<Link to='/'>tCinematic</Link>
 				</div>
 				<ul className="header__nav">
 					{
