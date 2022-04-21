@@ -2,7 +2,7 @@ import React from "react";
 import { Switch } from "react-router-dom";
 import { Route} from "react-router-dom";
 import Catalog from "../views/Catalog";
-import Detail from "../views/Detail";
+import Detail from "../views/Detail/index.js";
 import Home from "../views/Home";
 
 const Router = () => {
