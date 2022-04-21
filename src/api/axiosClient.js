@@ -15,7 +15,7 @@ const axiosClient = axios.create({
 	 if(response && response.data){
 		 return response.data
 	 }
-	 return response
+	 return response;
  }, (error)=>{
 	 throw error;
  });
